@@ -53,6 +53,6 @@ var loadFile = function(event) {
     blw.src = URL.createObjectURL(event.target.files[1]);
 };
 
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello " + i++;
-}
+// function myFunction() {
+//   document.getElementById("demo").innerHTML = "Hello " + i++;
+// }
