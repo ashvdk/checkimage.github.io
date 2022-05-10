@@ -50,3 +50,7 @@ var loadFile = function(event) {
 	abv.src = URL.createObjectURL(event.target.files[0]);
     blw.src = URL.createObjectURL(event.target.files[1]);
 };
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
