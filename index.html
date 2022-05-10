@@ -14,7 +14,7 @@
     <div id="root" style="display: flex;">
         <div style="border-right: 1px solid red;width: 100px; padding-top: 15px;z-index: 1000; background: white;">
             <div style="text-align: center;">
-                <i class="material-icons">&#xe439;</i>
+                <i class="material-icons">&#xe439;</i> <input onchange="loadFile(event)" type="file" id="myfile" name="myfile" multiple>
             </div>
             <div>
                 <div style="text-align: center;font-size: 13px;">Below Image</div>
@@ -59,10 +59,10 @@
                 <img src="C:\Users\ashwi\Pictures\above.png" style="width: 100%; height: 100%; opacity: 0.5;" />
             </div> -->
             <div id="below" style="position: absolute;">
-                <img src="https://www.opticasflores.cl/media/noticias/los-primeros-lentes-para-conducir-con-certificado-tv_rodenstock-auto-0001-1360x680px-021-min.jpg" style="width: 100%; height: 100%;" />
+                <img id="blw" src="https://www.opticasflores.cl/media/noticias/los-primeros-lentes-para-conducir-con-certificado-tv_rodenstock-auto-0001-1360x680px-021-min.jpg" style="width: 100%; height: 100%;" />
             </div>
             <div id="above" style="position: absolute;">
-                <img src="https://w7.pngwing.com/pngs/1022/160/png-transparent-car-2015-audi-a7-audi-rs7-audi-sportback-concept-audi-sedan-car-performance-car.png" style="width: 100%; height: 100%; opacity: 0.5;" />
+                <img id="abv" src="https://w7.pngwing.com/pngs/1022/160/png-transparent-car-2015-audi-a7-audi-rs7-audi-sportback-concept-audi-sedan-car-performance-car.png" style="width: 100%; height: 100%; opacity: 0.5;" />
             </div>
         </div>
     </div>

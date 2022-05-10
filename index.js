@@ -42,3 +42,11 @@ document.getElementById("belowImageMoveRight").addEventListener("click", functio
 document.getElementById("belowImageMoveLeft").addEventListener("click", function(){
     document.getElementById("below").style.left = (belowImageMoveRightorLeft--) + "px";
 })
+
+var loadFile = function(event) {
+	var abv = document.getElementById('abv');
+    var blw = document.getElementById('blw');
+    //console.log(event.target.files[0]);
+	abv.src = URL.createObjectURL(event.target.files[0]);
+    blw.src = URL.createObjectURL(event.target.files[1]);
+};
