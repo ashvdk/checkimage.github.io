@@ -43,6 +43,8 @@ document.getElementById("belowImageMoveLeft").addEventListener("click", function
     document.getElementById("below").style.left = (belowImageMoveRightorLeft--) + "px";
 })
 
+let i = 0;
+
 var loadFile = function(event) {
 	var abv = document.getElementById('abv');
     var blw = document.getElementById('blw');
@@ -52,5 +54,5 @@ var loadFile = function(event) {
 };
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
+  document.getElementById("demo").innerHTML = "Hello " + i++;
 }
